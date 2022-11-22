@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.col{
+    margin: 10 0;
+    margin-left: 5;
+}
+.row{
+    display: flex;  
+    justify-content: center;
+}
+
+.col:first-child{
+    text-align: right;
+    width: 40%;
+    margin: 10 0;
+}
+.col:last-child{
+    width: 60%;
+}
+select:active option:first-child {
+    visibility: hidden;
+}
+#doc{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}

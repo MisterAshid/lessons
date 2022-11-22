@@ -1,0 +1,45 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    border-radius: 20px;
+    padding: 10 20 10 40;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    /* padding: 40px; */
+}
+input{
+    margin: 10 0;
+    width: 300px;
+}
+#submit{
+    width: 200;
+}
+    /* #main{
+        max-width: 300px;
+    } */
+.row {
+    display: flex;
+    align-items: center;
+}
+.col{
+    margin-left: 5px;    
+}
+.col:first-child {
+    text-align: right;
+    width: 30%;
+}
+.col:last-child {
+    width: 70%;
+}
+#submit{
+    margin-left: -5px;
+}
