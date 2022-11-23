@@ -20,11 +20,8 @@
 .col:last-child{
     width: 60%;
 }
-select:active option:first-child {
-    visibility: hidden;
-}
-#doc{
+/* #doc{
     display: flex;
     justify-content: end;
     align-items: flex-end;
-}
+} */
