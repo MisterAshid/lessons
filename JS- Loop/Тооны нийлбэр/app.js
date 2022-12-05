@@ -13,18 +13,3 @@ if(0>sum){
     console.log(`${b}`);
 }
 
-// let s = prompt("Ta duriin toogo oruulna uu");
-// let sum = Number(s);
-
-// if(0>sum){
-//     console.log(" 🟥 🟥 🟥");
-// } else{
-//     let i = 0;
-//     let o = 0;
-//     while(i < sum){
-//         i = i+1;
-//         o = o+i;
-//     }
-//     console.log(`${o}`);
-
-// } 
