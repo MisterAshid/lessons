@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+fieldset{
+    max-width: 500px;
+}
+.col{
+    margin: 10 0;
+    margin-left: 5;
+}
+.row{
+    display: flex;  
+    justify-content: center;
+}
+
+.col:first-child{
+    text-align: right;
+    width: 40%;
+    margin: 10 0;
+}
+.col:last-child{
+    width: 60%;
+}
+/* #doc{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+} */
