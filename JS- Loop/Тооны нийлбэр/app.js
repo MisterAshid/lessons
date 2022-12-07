@@ -13,6 +13,7 @@ if(0>sum){
     console.log(`${b}`);
 }
 
+<<<<<<< HEAD
 // let s = prompt("Ta duriin toogo oruulna uu");
 // let sum = Number(s);
 
@@ -28,3 +29,5 @@ if(0>sum){
 //     console.log(`${o}`);
 
 // } 
+=======
+>>>>>>> 1bfe7a4c3af9d5af14b7e7091020eaebc07d1d20

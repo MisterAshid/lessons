@@ -1,11 +1,17 @@
 *{
     box-sizing: border-box;
+<<<<<<< HEAD
     margin: 0px;
     padding: 0;
 }
 fieldset{
     max-width: 500px;
 }
+=======
+    margin: 0;
+    padding: 0;
+}
+>>>>>>> 1bfe7a4c3af9d5af14b7e7091020eaebc07d1d20
 .col{
     margin: 10 0;
     margin-left: 5;

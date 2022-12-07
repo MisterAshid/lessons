@@ -5,15 +5,26 @@
     box-sizing: border-box;
 }
 form{
+<<<<<<< HEAD
     border: black solid 1px;
     border-radius: 20px;
     padding: 10px;
+=======
+    border-radius: 20px;
+    padding: 10 20 10 40;
+>>>>>>> 1bfe7a4c3af9d5af14b7e7091020eaebc07d1d20
 }
 .form-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+#msg{
+    /* padding: 40px; */
+}
+>>>>>>> 1bfe7a4c3af9d5af14b7e7091020eaebc07d1d20
 input{
     margin: 10 0;
     width: 300px;
@@ -29,8 +40,12 @@ input{
     align-items: center;
 }
 .col{
+<<<<<<< HEAD
     margin-left: 5px;   
     margin-right: 40px; 
+=======
+    margin-left: 5px;    
+>>>>>>> 1bfe7a4c3af9d5af14b7e7091020eaebc07d1d20
 }
 .col:first-child {
     text-align: right;
@@ -39,7 +54,13 @@ input{
 .col:last-child {
     width: 70%;
 }
+<<<<<<< HEAD
 
 #submit{
     margin-left: -5px;
 }
+=======
+#submit{
+    margin-left: -5px;
+}
+>>>>>>> 1bfe7a4c3af9d5af14b7e7091020eaebc07d1d20
