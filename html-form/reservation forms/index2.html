@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashid reservation forms 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="row" id="title">
+        <h2>Welcome to the 24x7 Fitness Club : Courts Reservation Page!!</h2>
+    </div>
+
+    <div class="row" id="color">
+        <fieldset>
+            <legend>Member Demographics</legend>
+
+                <div class="col">
+                <label for="Name">Name</label>
+                <input type="text">
+                </div>
+
+                <div class="col">
+                    <label for="member">Are you a Member?</label><br>
+                    <input type="radio" name="member-nonmember" value="member">Member
+                    <input type="radio" name="member-nonmember" value="nonmember">Non-member 
+                </div>
+
+                <div class="col">
+                    <label for="email">Email</label>
+                    <input type="text">
+                </div>
+        </fieldset>
+
+        <div class="col">
+            <label for="Facility">Facility</label>
+            <select name="selection" id="select">
+                <option value="badminton">Badminton</option>
+                <option value="badminton">Badminton</option>
+                <option value="badminton">Badminton</option>
+            </select>
+        </div>
+
+        <div class="col">
+            <label for="date">Select a reservation date and time:</label><br>
+            <input type="date">
+            <input type="time">
+        </div>
+
+        <div class="col">
+            <input type="checkbox">I agree to the club's reservation policy
+        </div>
+
+        <div class="col">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</body>
+</html>

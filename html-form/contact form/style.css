@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: rgb(137, 176, 223);
+   font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 20 50px;
+    max-width: 100%;
+}
+.box{
+    display: flex;
+}
+.left{
+    flex-basis: 50%;
+    background: #fff;
+    padding: 50px 40px;
+    color:rgb(38, 84, 157);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 1.5rem;
+}
+.right{
+    flex-basis: 50%;
+    background: rgb(38, 84, 157);
+    padding: 50px 40px;
+    color:#fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.5rem;
+}
+input{
+    /* width: 100%; */
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.5rem;
+}
+select{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.5rem;
+}
+.full{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.yes{
+    display: flex;
+}
+input[type="checkbox"]{
+    margin-right: 30px;
+}
+input[type="submit"]{
+    border-radius: 50px;
+    width: 30%; 
+    padding: 10 5;  
+    cursor: pointer;
+    /* box-shadow: -5px -5px 0 rgb(128, 127, 131); */
+    box-shadow:  3px  3px 0 rgb(0 0 0 )  ;
+}
+a{
+    color:white;
+}

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#title{
+    background-color: rgb(252, 64, 95);
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.row{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+#color{
+    background-color: rgb(196, 245, 252);
+}
+.col{
+    margin: 5 0;
+}
+input[type="checkbox"]{
+    margin-right: 5px;
+}

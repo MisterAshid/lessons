@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 30 30;
+    padding: 0;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+.blue{
+    background-color: blue;
+    transition-delay: 0;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.blue:active{   
+    width: 500px;
+}
+.green{
+    background-color: green;
+    transition-delay: 0;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.green:hover{
+    width: 500px;
+}
